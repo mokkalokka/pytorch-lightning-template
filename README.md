@@ -34,6 +34,7 @@ cd pytorch-lightning-template
 module load Anaconda3/2023.09-0
 conda env create --file environment.yaml
 conda activate pl_env
+python -m ipykernel install --user --name pl_env --display-name "pl_env"
 ```
 
 
