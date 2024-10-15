@@ -14,5 +14,6 @@ dependencies:
       - wandb
       - munch
       - ipykernel
+      - ipywidgets
       
 
