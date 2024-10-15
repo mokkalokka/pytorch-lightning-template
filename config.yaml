@@ -1,0 +1,24 @@
+max_lr: 0.1
+weight_decay: 0.0001
+momentum: 0.9
+max_epochs: 150
+batch_size: 128
+
+in_channels: 3
+num_classes: 100
+use_pretrained_weights: true
+
+test_model: True
+checkpoint_path: #checkpoints/*****.ckpt used for testing / fine-tuning
+early_stopping_patience: 10
+num_workers: 8
+check_val_every_n_epoch: 3
+
+wandb_project: CIFAR100
+wandb_experiment_name: resnet_50
+
+train_split_ratio: 0.8
+data_root: ./data
+checkpoint_folder: ./checkpoints/
+
+
