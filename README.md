@@ -25,8 +25,8 @@ https://github.com/jarlsondre/idun_tutorial/blob/main/tutorial.md
 
 ### Clone the template from Github:
 ```
-git clone xxxx
-cd xxxx
+git clone https://github.com/mokkalokka/pytorch-lightning-template.git
+cd pytorch-lightning-template
 ```
 
 ### Preparing the environment:
@@ -70,7 +70,7 @@ https://github.com/jarlsondre/idun_tutorial/blob/main/tutorial.md#connect-local-
 
 Note: If you wish to modify the code, you can also use this interactive session to debug the code with GPU resources before submitting the job via sbatch.
 
-To the trainer interactively:
+To run the trainer interactively:
 ```
 module load Anaconda3/2023.09-0
 conda activate pl_env
