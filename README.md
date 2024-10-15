@@ -25,8 +25,8 @@ https://github.com/jarlsondre/idun_tutorial/blob/main/tutorial.md
 
 ### Clone the template from Github:
 ```
-git clone xxxx
-cd xxxx
+git clone https://github.com/mokkalokka/pytorch-lightning-template.git
+cd pytorch-lightning-template
 ```
 
 ### Preparing the environment:
