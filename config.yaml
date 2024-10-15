@@ -8,7 +8,7 @@ in_channels: 3
 num_classes: 100
 use_pretrained_weights: true
 
-test_model: True
+test_model: False
 checkpoint_path: #checkpoints/*****.ckpt used for testing / fine-tuning
 early_stopping_patience: 10
 num_workers: 8
